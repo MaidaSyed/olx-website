@@ -1,0 +1,314 @@
+.miniCards {
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgb(222, 223, 222);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.miniCards p {
+  margin-bottom: 0px !important;
+  margin-left: 5px;
+
+}
+.horn {
+  display: flex;
+  gap: 50px;
+  z-index: -1;
+
+
+}
+._21d60d2f {
+  width: 3.2rem;
+  height: 2rem;
+  fill: #3a77ff;
+
+}
+#nip {
+  width: 90px;
+  margin-left: 20px;
+
+}
+#jin {
+  margin-left: 40px;
+  width: 300px;
+  height: 50px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  background-position: 10px;
+  border: 2px solid black;
+
+}
+input {
+    
+  width: 600px;
+  height: 50px;
+  border: 2px solid black;
+  background-image: url("https://simg.nicepng.com/png/small/363-3630378_google-web-search-icon-search-icon-website.png");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+background-position: right;
+padding-left: 20px;
+padding-right: 50px;
+
+}
+nav{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color: whitesmoke;
+    width: 100%;
+
+}
+
+#old{
+    background: white;
+    border-radius: 30% !important;
+    border: 3px solid blueviolet;
+    height: 50px;
+
+}
+.red{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+
+}
+#let{
+    margin-top: 20px;
+width: 100%;
+}
+.into{
+    display: flex;
+    gap: 30px;
+}
+.into :hover{
+    color: lightblue;
+}
+h2{
+    padding-top: 50px;
+}
+.card-group{
+    gap: 15px;
+    margin-top: 15px;
+}
+#jol{
+    margin-top: 15px;
+    width: 330px;
+}
+#got{
+margin-left: 480px;
+height: 50px;
+font-size: larger;
+}
+#lol{
+margin-right: 790px;
+}
+#jak{
+  width: 250px;
+  
+}
+#jao{
+  width: 250px;
+}
+footer h1{
+     display: flex;
+     justify-content: center;
+     padding-left: 200px;
+     position: relative;
+     bottom: 150px;
+}
+#lot{
+     display: flex;
+     justify-content: center;
+     padding-left: 200px;
+     position: relative;
+     bottom: 150px;
+}
+   
+footer{
+    background-color: whitesmoke;
+    margin-top: 40px;
+    height: 430px;
+    
+}
+.not{
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+}
+.pin{
+     display: flex; 
+     justify-content: end;  
+}
+.yes{
+position: relative;
+bottom: 150px;
+left: 200px;
+}
+hr{
+  position: relative;
+  bottom: 100px;
+}
+.tin{
+  display: flex;
+  gap: 70px;
+  position: relative;
+  bottom: 100px;
+}
+.no{
+  width: 80px;
+  display: flex;
+}
+.do{
+  font-size: larger;
+}
+.don{
+margin-left: 800px;
+position: relative;
+bottom: 200px;
+}
+.did{
+  display: flex;
+}
+
+@media (max-width: 575px){
+  input {
+  display: none;
+  }
+
+#nip{
+  display: none;
+}
+nav{
+  width: 100%;
+}
+.horn{
+  gap: 30px;
+}
+#jin{
+  margin-right: 50px;
+}
+#old{
+  position: relative;
+  right: 70px;
+}
+.miniCards{
+  width: 50px;
+}
+ .into{
+  display: inline;
+ }
+footer img{
+  display: none;
+}
+footer h1{
+  display: none;
+}
+.yes{
+  display: none;
+}
+#lot{
+  display: none;
+}
+.pin{
+  display: none;
+}
+#got{
+  display: none;
+  
+}
+#let{
+  width: 100%
+}
+.tin{
+  display: inline ;
+ position: relative; 
+top: 0px; 
+/* display: none;   */
+}
+h3{
+  display: none;
+}
+footer{
+  height: 550px;
+  width: 100%; 
+   /* display: none; */
+} 
+.don{
+
+  display: inline;
+   position: relative; 
+   top: 0px; 
+/* display: none; */
+}
+.did{
+  display: none;
+}
+#lol{
+  margin-right: 0px auto; 
+  }
+  #jak{
+     width: 0px auto; 
+    
+  }
+  #jao{
+     width: 0px auto;
+      
+  }
+}
+
+@media (max-width : 1000px) and (min-width:575px)  {
+#nip{
+  display : none
+}
+#king{
+  display: none;
+}
+footer h1{
+  display: none;
+}
+#lot{
+  display: none;
+}
+.tin{
+  position: relative;
+  top: 0px;
+  display: inline;
+}
+.pin{
+  position: relative;
+  top: 250px;
+  right: 0px;
+}
+footer{
+  height: 600px;
+  width: 450px;
+  /* display: none; */
+}
+#got{
+  display: none;
+}
+.did{
+  display: none;
+}
+.don{
+  display: inline;
+  position: relative;
+  left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+}
